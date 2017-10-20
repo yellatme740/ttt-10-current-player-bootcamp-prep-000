@@ -1,7 +1,7 @@
 def turn_count(board)
   counter = 1
   board.each do |position|
-    if position.even?
+    if position === "O"
       return "O"
     else
       return "X"
