@@ -4,7 +4,7 @@ def turn_count(board)
     if position == "O" || position == "X"
       counter += 1
     else
-      continue
+      next
     end
   end
   return counter
